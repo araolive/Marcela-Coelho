@@ -1,0 +1,1921 @@
+* {
+    /*Seletor global, resete do css, removendo margens padrão*/
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+        
+}
+
+
+
+
+
+
+/*Cor background das sections*/
+:root {
+    --cor-primaria: hsl(0, 0%, 98%);
+    ;
+}
+
+/*Cor background da header*/
+:root {
+    --cor-header: #f3c791;
+}
+
+/*Cor rodapé*/
+:root {
+    --cor-rodapé: #8dffa7;
+}
+
+/*Cor cinza de paragrafos*/
+:root {
+    --cor-paragrafos: #737373;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /*Colocando a fonte em todo o body*/
+    overflow-x: hidden;    
+}
+
+html {
+    
+    /*Chamar diretamente o html para entrar no seletor*/
+    scroll-behavior: smooth;
+    /*Função serve para navegar suavemente quando clicar nos botões HOME SOBRE PROJETOS*/
+    /*Algumas versões não suporta isso*/
+}
+
+
+
+
+
+/* Inicio header*/
+
+header {
+    background-color: hsl(0, 0%, 98%);
+    border-bottom: 10px solid rgb(188, 134, 90);
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 130px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-list a:hover {
+    color: #a29fa9;
+
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color:  hsl(0, 0%, 40%);
+    font-weight: 400;
+}
+
+
+.login-button button {
+    border: none;
+    padding: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(211, 168, 113, 0.918);
+    border: 0;
+    font-size: 18px;
+    transition: 0.8s;
+    color: #ffffff;
+    font-weight: 500;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    
+}
+
+.login-button button:hover {
+    background-color: rgba(22, 15, 6, 0.784);
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+/* FIM HEADER */
+
+
+
+
+/*Inicio main*/
+.main {
+    background-image: url(images/foto-escritorio.png);
+    width: 100%;
+    height: calc(100vh - 130);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container-main {
+    margin-top: 10%;
+    margin-right: 30%;
+    display: flex;
+    /* Usa o modelo de layout flexbox */
+    flex-direction: column;
+    /* Empilha os elementos verticalmente */
+    justify-content: center;
+    /* Centraliza verticalmente */
+    align-items: center;
+    /* Centraliza horizontalmente */
+     /* Altura opcional para a div container */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 32%;
+}
+
+.cor-container-main {
+    top: 0;
+    /* Alinha a sobreposição ao topo da seção */
+    left: 0;
+    /* Alinha a sobreposição à esquerda da seção */
+    width: 100%;
+    /* Define a largura da sobreposição como 100% da largura da seção */
+    height: 100%;
+    /* Define a altura da sobreposição como 100% da altura da seção */
+    background-color: rgba(0, 0, 0, 0.315);
+    /* Cor branca semi-transparente */
+    display: flex;
+    /* Use flexbox para centralizar verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    flex-direction: column;
+
+}
+
+.main h1 {
+    font-size: 20px;
+    /*tamanho do paragrafo*/
+
+    /*Transformando fonte do paragrafo em italico*/
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    /* Adiciona uma sombra de texto branca com 50% de opacidade */
+
+    /*Cor do paragrafo*/
+    margin-top: 10px;
+    /*Colocando uma margem em cima de 10px */
+    letter-spacing: 3px;
+    font-weight: 400;
+    width: 45ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mark .5s step-end infinite, write 3s steps(22, end);
+
+}
+
+.main p {
+
+
+    font-size: 50px;
+    /*tamanho do paragrafo*/
+
+    /*Transformando fonte do paragrafo em italico*/
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    /* Adiciona uma sombra de texto branca com 50% de opacidade */
+
+    /*Cor do paragrafo*/
+    margin-top: 10px;
+    /*Colocando uma margem em cima de 10px */
+    letter-spacing: 3px;
+    font-weight: 200;
+    width: 45ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mark .5s step-end infinite, write 3s steps(22, end);
+
+}
+
+.main h3 {
+    font-size: 20px;
+    /*tamanho do paragrafo*/
+
+    /*Transformando fonte do paragrafo em italico*/
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    /* Adiciona uma sombra de texto branca com 50% de opacidade */
+    font-style: italic;
+    /*Cor do paragrafo*/
+    margin-top: 10px;
+    /*Colocando uma margem em cima de 10px */
+    letter-spacing: 3px;
+    font-weight: 400;
+    width: 45ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mark .5s step-end infinite, write 3s steps(22, end);
+
+}
+
+.waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+
+@keyframes write {
+    0% {
+        width: 0;
+    }
+}
+
+
+
+
+.call-to-action {
+
+    margin-top: 20px;
+    /*Classe do botão*/
+    cursor: pointer;
+    /*Colocando a mãozinha no mouse indicando que é um botão*/
+    background-color: rgba(199, 146, 78, 0.822);
+    /*Cor interna do botão*/
+    border: 0;
+    /*Para não ter borda*/
+    padding: 14px;
+    /*Espaçamento interno para o botão ficar maior*/
+    font-size: 18px;
+    /*Aumentando o tamanho da fonte do texto*/
+
+    /*Colocando em negrito o texto do botão*/
+    transition: 1s;
+    /*Aumentando o botão em 0.2segundos, para isso acontecer tem que chamar a funão HOVER conforme abaixo*/
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mark .5s step-end infinite, write 3s steps(22, end);
+    border-top-left-radius: 15px;
+    /* Arredonda o canto superior esquerdo */
+    border-bottom-right-radius: 15px;
+    /* Arredonda o canto inferior direito */
+}
+
+
+
+
+
+.call-to-action:hover {
+    /*Muda o botão de cor*/
+    background-color: rgba(22, 15, 6, 0.784);
+
+
+}
+
+.main a {
+    text-decoration: none;
+    /*Para garantir que o texto não vai ter o sublinhado de link*/
+    color: #181818;
+}
+
+
+
+
+/*Fim main*/
+
+
+
+/*Inicio sobre*/
+.about {
+    background-color: hsl(0, 0%, 96%);
+    height: 100%;
+    width: 100%;
+    /*Vai pegar em 100% dá área*/
+    padding-left: 10%;
+    /*Espaçamento de 10% na esquerda sempre*/
+    padding-right: 10%;
+    /*Espaçamento na direita sempre*/
+    /*Espaçamento em cima*/
+    padding-bottom: 80px;
+    /*Espaçamento em baixo*/
+    display: flex;
+    /*Coloca os itens um do lado do outro*/
+    align-items: center;
+    /*Alinhar os itens no centro*/
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.tonalidade-about {
+    top: 0;
+    /* Alinha a sobreposição ao topo da seção */
+    left: 0;
+    /* Alinha a sobreposição à esquerda da seção */
+    width: 100%;
+    /* Define a largura da sobreposição como 100% da largura da seção */
+    height: 100%;
+    /* Define a altura da sobreposição como 100% da altura da seção */
+    background-color: rgba(255, 255, 255, 0);
+    /* Cor branca semi-transparente */
+    display: flex;
+    /* Use flexbox para centralizar verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+
+}
+
+.about h3 {
+    font-weight: 480;
+    letter-spacing: 2px;
+    margin-bottom: 13px;
+    color:  rgb(199, 147, 78);
+    font-size: 20px;
+}
+
+.about h1 {
+    font-weight: 450;
+    letter-spacing: 8px;
+    font-size: 65px;
+    color: rgb(45, 45, 45);
+}
+
+.container-about {
+    max-width: 500px;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.about img {
+    width: 34%;
+    /*Diminuindo a imagem*/
+    border-radius: 0;
+    /*Arredondando a borda da imagem*/
+    margin-right: 90px;
+    margin-left: 70px;
+}
+
+.about p {
+    color: var(--cor-paragrafos);
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.about a {
+
+    
+    margin-top: 20px;
+    /* Espaçamento superior de 20 pixels */
+
+}
+
+.call-to-action-sobre {
+    
+    cursor: pointer;
+    background-color: rgba(199, 146, 78, 0.879);
+    border: 0;
+    padding: 14px;
+    font-size: 18px;
+    transition: 1s;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.call-to-action-sobre:hover {
+    background-color: rgba(22, 15, 6, 0.784);
+}
+
+/*Fim sobre*/
+
+
+/*Inicio Especialidades*/
+
+.sintomas {
+    background-image: url(images/consultorio-especialidades.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    /*Largura da section de 100%*/
+    display: flex;
+    /*Movimentar os itens dentro da section*/
+    align-items: center;
+    /*Colocando no centro ao lado esquerdo*/
+    flex-direction: column;
+    background-attachment: fixed;
+
+    /*Acrescentado*/
+    position: relative;
+    border-bottom: 10px solid rgb(188, 134, 90);
+    border-top: 10px solid rgb(188, 134, 90);
+
+}
+
+.diminuindo-tonalidade-section {
+    top: 0;
+    /* Alinha a sobreposição ao topo da seção */
+    left: 0;
+    /* Alinha a sobreposição à esquerda da seção */
+    width: 100%;
+    /* Define a largura da sobreposição como 100% da largura da seção */
+    height: 100%;
+    /* Define a altura da sobreposição como 100% da altura da seção */
+    background-color: rgba(0, 0, 0, 0.315);
+    /* Cor branca semi-transparente */
+    display: flex;
+    /* Use flexbox para centralizar verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    flex-direction: column;
+}
+
+.tema h1 {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    /* Adiciona uma sombra clara para criar um efeito de brilho */
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 48px;
+    display: flex;
+    /* flex container para os itens */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    align-items: center;
+    /* centraliza os itens horizontalmente */
+
+}
+
+.tema h2 {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    /* Adiciona uma sombra clara para criar um efeito de brilho */
+    letter-spacing: 1px;
+    font-weight: 450;
+    color: #ffffff;
+    margin-top: 100px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    /* flex container para os itens */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    align-items: center;
+    /* centraliza os itens horizontalmente */
+}
+
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /*Movimentar os itens dentro da section*/
+    align-items: center;
+    /*Colocando no centro ao lado esquerdo*/
+    justify-content: center;
+    /*Colocando os itens no centro da div*/
+}
+
+
+
+.elemento1 h1 {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    /* Adiciona uma sombra clara para criar um efeito de brilho */
+    text-align: center;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    /* flex container para os itens */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    align-items: center;
+    /* centraliza os itens horizontalmente */
+    margin-bottom: 20px;
+}
+
+
+.primeiro-elemento {
+    background-color: rgba(191, 191, 195, 0.6);
+    margin-top: 40px;
+    height: 422px;
+    width: 325px;
+    align-items: center;
+    margin-left: 50px;
+    /*margem ao lado direito*/
+    position: relative;
+    border-top-left-radius: 50px;
+    /* Arredonda o canto superior esquerdo */
+    border-bottom-right-radius: 50px;
+    /* Arredonda o canto inferior direito */
+    display: flex;
+    /* flex container para os itens */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    align-items: center;
+    /* centraliza os itens horizontalmente */
+}
+
+
+
+.primeiro-elemento h1 {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    /* Adiciona uma sombra clara para criar um efeito de brilho */
+    text-align: center;
+    letter-spacing: 1px;
+    color: #0a0a0a;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    /* flex container para os itens */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    align-items: center;
+    /* centraliza os itens horizontalmente */
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.texto-primeiro-elemento p {
+
+    color: #000000;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 390;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 1.7;
+    /* Ajuste o valor conforme necessário */
+
+}
+
+.texto-primeiro-elemento {
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+
+
+
+.elemento1 {
+    background-color: rgba(255, 140, 0, 0.688);
+    margin-top: 30px;
+    height: 422px;
+    width: 325px;
+    align-items: center;
+    margin-left: 50px;
+    /*margem ao lado direito*/
+    position: relative;
+    border-top-left-radius: 50px;
+    /* Arredonda o canto superior esquerdo */
+    border-bottom-right-radius: 50px;
+    /* Arredonda o canto inferior direito */
+    display: flex;
+    /* flex container para os itens */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    align-items: center;
+    /* centraliza os itens horizontalmente */
+}
+
+
+
+
+.container2 h1 {
+    display: flex;
+    /* flex container para os itens */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    align-items: center;
+    /* centraliza os itens horizontalmente */
+}
+
+
+
+.container2 img {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    margin-top: 40px;
+}
+
+
+.sintomas a {
+    margin-bottom: 40px;
+}
+
+
+
+.frase-sintomas h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-weight: 495;
+}
+
+.elemento1 p {
+    color: #ffffff;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 390;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+    line-height: 1.7;
+    /* Ajuste o valor conforme necessário */
+}
+
+
+.texto-elemento1 {
+
+
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    /* posicionamento absoluto em relação à div pai */
+    top: 50%;
+    /* 50% do topo da div pai */
+    left: 50%;
+    /* 50% da esquerda da div pai */
+    transform: translate(-50%, -50%);
+    /* move a div para trás 50% da sua própria largura e altura */
+    display: flex;
+    /* flex container para os itens */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    align-items: center;
+    /* centraliza os itens horizontalmente */
+}
+
+.elemento1 h1 {
+    font-style: italic;
+    text-align: center;
+
+}
+
+.call-to-action-especialidades {
+
+    /*Classe do botão*/
+    cursor: pointer;
+    /*Colocando a mãozinha no mouse indicando que é um botão*/
+    background-color: rgba(199, 146, 78, 0.879);
+    /*Cor interna do botão*/
+    border: 0;
+    /*Para não ter borda*/
+    padding: 14px;
+    /*Espaçamento interno para o botão ficar maior*/
+    font-size: 18px;
+    /*Aumentando o tamanho da fonte do texto*/
+
+    /*Colocando em negrito o texto do botão*/
+    transition: 1s;
+    /*Aumentando o botão em 0.2segundos, para isso acontecer tem que chamar a funão HOVER conforme abaixo*/
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    /* Arredonda o canto superior esquerdo */
+    border-bottom-right-radius: 15px;
+    /* Arredonda o canto inferior direito */
+
+}
+
+.call-to-action-especialidades:hover {
+    background-color: rgba(22, 15, 6, 0.784);
+}
+
+
+
+
+/*Fim Especialidades*/
+
+
+/*Inicio consulta*/
+.query {
+    height: 100%;
+    background-color: hsl(0, 0%, 96%);
+    width: 100%;
+    display: flex;
+    /*Coloca os itens um do lado do outro*/
+    align-items: center;
+    /*Alinhar os itens no centro*/
+    justify-content: space-between;
+    /*Colocar um espaçamento entre os itens*/
+    position: relative;
+
+}
+
+.tonalidade-query {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /*Coloca os itens um do lado do outro*/
+    align-items: center;
+    /*Alinhar os itens no centro*/
+    justify-content: center;
+    /*Colocar um espaçamento entre os itens*/
+    background-color: rgba(255, 255, 255, 0);
+    /* Cor branca semi-transparente */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.query-texto {
+    margin-right: 100px;
+}
+
+.query-texto h2 {
+    color: #7c3636;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.query-texto h1 {
+    color: rgb(199, 147, 78);
+    font-size: 50px;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+
+.query-texto p {
+    color: var(--cor-paragrafos);
+    font-weight: normal;
+
+}
+
+.call-to-action-query {
+    cursor: pointer;
+    /*Colocando a mãozinha no mouse indicando que é um botão*/
+    background-color: rgba(199, 146, 78, 0.871);
+    /*Cor interna do botão*/
+    border: 0;
+    /*Para não ter borda*/
+    padding: 14px;
+    /*Espaçamento interno para o botão ficar maior*/
+    font-size: 18px;
+    /*Aumentando o tamanho da fonte do texto*/
+
+    /*Colocando em negrito o texto do botão*/
+    border-top-left-radius: 15px;
+    /* Arredonda o canto superior esquerdo */
+    border-bottom-right-radius: 15px;
+    /* Arredonda o canto inferior direito */
+    transition: 1s;
+    /*Aumentando o botão em 0.2segundos, para isso acontecer tem que chamar a funão HOVER conforme abaixo*/
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+
+.call-to-action-query:hover {
+    background-color: rgba(22, 15, 6, 0.784);
+}
+
+
+.textos-quadrados {
+    background-color: rgba(199, 146, 78, 0.784);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* Ajusta a direção do layout para ser em coluna */
+    justify-content: center;
+    /* Alinha os itens verticalmente no centro */
+    align-items: flex-start;
+}
+
+.textos-quadrados p {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 15px;
+
+}
+
+
+
+/*Fim consulta*/
+
+
+/*Inicio Etapas*/
+.timeline-etapas-consultas{
+    background-color: #fcfcfc;
+    height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+
+.ag-timeline-card_img-box{
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px rgba(152, 152, 152, 0.3); /* Adiciona sombra */
+    
+}
+
+.Main-section h2{
+    text-align: center;
+    font-weight: 540;
+    margin-bottom: 15px;
+    color: #090118bb;
+
+}
+
+.Main-section small{
+    color: #737373;
+}
+
+.Main-section p{
+    color: var(--cor-paragrafos);
+    font-size: 14px;
+    text-align: justify;
+    letter-spacing: 1.8px;
+    font-weight: 400;
+    line-height: 1.4;
+
+}
+
+
+.Container {
+	width: 1160px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.tema-timeline-etapas-consulta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+.tema-timeline-etapas-consulta h2{
+    color:  rgb(77, 56, 30);
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-weight: 480;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.tema-timeline-etapas-consulta h1{
+    color:  rgba(199, 146, 78, 0.825);
+    font-weight: 480;
+    font-size: 50px;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+.ag-timeline_item {
+	margin: 0 0 50px;
+	position: relative;
+}
+.ag-timeline_item:nth-child(2n) {
+	text-align: right;
+}
+
+.ag-timeline {
+	display: inline-block;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.ag-timeline_line {
+	width: 5px;
+	background-color: #adadab;
+	position: absolute;
+	top: 2px;
+	left: 50%;
+	bottom: 0;
+	overflow: hidden;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.ag-timeline_line-progress {
+	width: 100%;
+	height: 20%;
+	background-color:  rgba(199, 146, 78, 0.825);
+}
+
+.ag-timeline-card_box {
+	padding: 0 0 20px 50%;
+}
+
+.ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
+	padding: 0 50% 20px 0;
+}
+
+.ag-timeline-card_point-box {
+	display: inline-block;
+	margin: 0 14px 0 -28px;
+}
+
+.ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
+	margin: 0 -28px 0 14px;
+}
+
+.ag-timeline-card_point {
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	background-color: rgb(14, 11, 6);
+	text-align: center;
+	font-family: 'ESL Legend', sans-serif;  
+	font-size: 20px;
+	color: #FFF;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+/*Muda de cor a bolinha e o numero da bolinha*/
+
+.js-ag-active .ag-timeline-card_point {
+	color: #1d1d1b;
+	background-color: rgb(199, 146, 78);
+}
+
+.ag-timeline-card_meta-box {
+	display: inline-block;
+}
+
+.ag-timeline-card_meta {
+	margin: 10px 0 0;
+	font-weight: 600;
+	font-size: 17px;
+	color: rgba(199, 146, 78, 0.784);
+}
+
+.ag-timeline-card_item {
+	display: inline-block;
+	width: 45%;
+	margin: -77px 0 0;
+	opacity: 0;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 0 0 0 rgba(173, 168, 168, 0.5);
+	-moz-box-shadow: 0 0 0 0  rgba(173, 168, 168, 0.5);
+	-o-box-shadow: 0 0 0 0  rgba(173, 168, 168, 0.5);
+	box-shadow: 0 0 0 0  rgba(173, 168, 168, 0.5);
+	-webkit-transition: -webkit-transform .5s, opacity .5s;
+	-moz-transition: -moz-transform .5s, opacity .5s;
+	-o-transition: -o-transform .5s, opacity .5s;
+	transition: transform .5s, opacity .5s;
+	position: relative;
+}
+
+.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item {
+	-webkit-transform: translateX(-200%);
+	-moz-transform: translateX(-200%);
+	-ms-transform: translateX(-200%);
+	-o-transform: translateX(-200%);
+	transform: translateX(-200%);
+}
+
+.ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+	-webkit-transform: translateX(200%);
+	-moz-transform: translateX(200%);
+	-ms-transform: translateX(200%);
+	-o-transform: translateX(200%);
+	transform: translateX(200%);
+}
+
+.js-ag-active.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item,
+.js-ag-active.ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+	opacity: 1;
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	-o-transform: translateX(0);
+	transform: translateX(0);
+}
+
+.ag-timeline-card_arrow {
+	height: 18px;
+	width: 18px;
+	margin-top: 20px;
+	background-color: #e2e2e2;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.ag-timeline_item:nth-child(2n+1) .ag-timeline-card_arrow {
+	margin-left: calc(-18px / 2);
+	margin-right: calc(-18px / 2);
+}
+.ag-timeline_item:nth-child(2n) .ag-timeline-card_arrow {
+  margin-left: -10px;
+  right: auto;
+  left: 0;
+}
+
+
+
+/*--- Responsive Code ---*/
+@media only screen and (max-width: 979px) {
+  .ag-timeline_line {
+	left: 30px;
+  }
+
+  .ag-timeline_item:nth-child(2n) {
+	text-align: left;
+  }
+
+  .ag-timeline-card_box,
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
+	padding: 0 0 20px;
+  }
+  
+  .ag-timeline-card_meta-box {
+    display: none;
+  }
+  
+  .ag-timeline-card_point-box,
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
+    margin: 0 0 0 8px;
+  }
+  
+  .ag-timeline-card_point {
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+  }
+  
+  .ag-timeline-card_item {
+    width: auto;
+    margin: -65px 0 0 75px
+  }
+  
+  .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_item,
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    -o-transform: translateX(200%);
+    transform: translateX(200%);
+  }
+  
+  .ag-timeline_item:nth-child(2n+1) .ag-timeline-card_arrow {
+    right: auto;
+    left: 0;
+  }
+  
+  .ag-timeline-card_arrow {
+    margin-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Container {
+    width: 96%;
+  }
+
+  .ag-timeline-card_img {
+    height: auto;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .secTitle {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .Container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .Container {
+    width: 960px;
+  }
+}
+
+/*--- Responsive Code End ---*/
+
+
+/*Fim Etapas*/
+
+/*Inicio depoimentos*/
+
+.depoimentos{
+    background-image: url(images/foto-consultorio-clientes-falam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Organizar os itens em coluna */
+    justify-content: center; /* Centralizar os itens verticalmente */
+    align-items: center; /* Centralizar os itens horizontalmente */
+    overflow-x: hidden;
+}
+
+.diminuindo-tonalidade-depoimentos-clientes{
+    top: 0;
+    /* Alinha a sobreposição ao topo da seção */
+    left: 0;
+    /* Alinha a sobreposição à esquerda da seção */
+    width: 100%;
+    /* Define a largura da sobreposição como 100% da largura da seção */
+    height: 100%;
+    /* Define a altura da sobreposição como 100% da altura da seção */
+    background-color: rgba(255, 255, 255, 0.164);
+    /* Cor branca semi-transparente */
+    display: flex;
+    /* Use flexbox para centralizar verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    flex-direction: column;
+ }
+
+.tema-depoimentos{
+    display: flex;
+    flex-direction: column; /* Organizar os itens em coluna */
+    justify-content: center; /* Centralizar os itens verticalmente */
+    align-items: center; /* Centralizar os itens horizontalmente */
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.tema-depoimentos h2{
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(11, 11, 11, 0.359), 0 0 5px rgba(6, 6, 6, 0.31); /* Adiciona sombra duas vezes */
+
+}
+
+.tema-depoimentos h1{
+    letter-spacing: 2px;
+    font-size: 45px;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(11, 11, 11, 0.359), 0 0 5px rgba(6, 6, 6, 0.31); /* Adiciona sombra duas vezes */
+    font-weight: 450;
+}
+
+.depoimentos-gerados-clientes{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.depoimentos-gerados-clientes div{
+    height: 400px;
+    width: 580px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #eceaeaa1;
+    display: flex;
+    justify-content: center; /* alinha horizontalmente */
+    align-items: center; /* alinha verticalmente */   
+    flex-direction: column;
+    margin-bottom: 100px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* offsetX, offsetY, blurRadius, color */
+}
+
+.depoimentos-gerados-clientes p{
+    align-items: center;
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.depoimentos-gerados-clientes img{
+    width: 20%;
+}
+
+
+/*Fim depoimentos*/
+
+
+/*Inicio Consultas Presencial e online*/
+.faca-sua-consulta{
+    background-color: hsl(0, 0%, 96%);
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container-f-c-p-o{
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+
+.imagem-c-p-o{
+   margin-left: 20%;
+}
+
+
+
+.texto-c-p-o{
+
+    margin-left: 10%;
+    margin-right: 18%;
+}
+
+
+.texto-c-p-o h2{
+    color: #7c3636;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.texto-c-p-o h1{
+    color: rgb(199, 147, 78);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.texto-c-p-o p{
+    color: var(--cor-paragrafos);
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+
+
+/*Fim Consulta Presencial e online*/
+
+/*Inicio redes sociais*/
+.redes-sociais{
+    background-image: url(images/imagem-consultorio-instagram.jpg);
+    background-size: cover; /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+
+
+.tonalidade-redes-sociais-t{
+    
+    top: 0;
+    /* Alinha a sobreposição ao topo da seção */
+    left: 0;
+    /* Alinha a sobreposição à esquerda da seção */
+    width: 100%;
+    /* Define a largura da sobreposição como 100% da largura da seção */
+    height: 100%;
+    /* Define a altura da sobreposição como 100% da altura da seção */
+    background-color: rgba(0, 0, 0, 0.485);
+    /* Cor branca semi-transparente */
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100%; 
+
+
+}
+
+
+.redes-sociais a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+
+.redes-sociais img{
+    width: 7%; /* Garante que a imagem preencha o link */
+    transition: transform 0.8s ease;
+
+    
+}
+
+
+
+.redes-sociais img:hover{
+    transform: scale(1.5);
+
+}
+
+
+.redes-sociais h2{
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+
+.redes-sociais h1{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+/*Fim redes sociais*/
+
+
+
+/*Inicio FAQ*/
+.faq {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.texto-faq{
+    display:flex ;
+    margin-left: 10%;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+
+
+
+
+.texto-faq h1 {
+    color: rgb(199, 147, 78);
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-align: left;
+}
+.texto-faq h2 {
+    
+    color: #7c3636;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.texto-faq p{
+    color: var(--cor-paragrafos);
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+
+
+.elementos-do-sumary details :hover {
+    background-color: lightgray;
+}
+
+
+.elementos-do-sumary {    
+    cursor: pointer;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-bottom: 80px;
+    display:flex ;
+    margin-right: 10%;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centraliza verticalmente */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /*Fazendo a transição suave do details*/
+    transition: all 2s ease-in-out;
+    max-height: 60px;
+
+}
+
+
+details[open] {
+    /*Fazendo a transição suave do details*/
+    max-height: 500px;
+}
+
+
+.elementos-do-summary details.closing {
+    max-height: 0;
+    /* Fecha suavemente */
+    opacity: 0;
+}
+
+
+
+
+.faq summary {
+    background-color:  rgba(70, 70, 164, 0.050) ;
+    color: rgba(0, 0, 28, 0.66);
+    /* cor do texto do sumary*/
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+
+    
+
+.elementos-do-sumary h1{
+    color: rgba(0, 0, 28, 0.66);
+    /* cor do texto do sumary*/
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.faq details p {
+
+    color: var(--cor-paragrafos);
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-left: 30px;
+
+}
+
+.call-to-action-faq {
+
+    margin-top: 20px;
+    /*Classe do botão*/
+    cursor: pointer;
+    /*Colocando a mãozinha no mouse indicando que é um botão*/
+    background-color: rgba(199, 146, 78, 0.822);
+    /*Cor interna do botão*/
+    border: 0;
+    /*Para não ter borda*/
+    padding: 14px;
+    /*Espaçamento interno para o botão ficar maior*/
+    font-size: 18px;
+    /*Aumentando o tamanho da fonte do texto*/
+
+    /*Colocando em negrito o texto do botão*/
+    
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    border-top-left-radius: 15px;
+    /* Arredonda o canto superior esquerdo */
+    border-bottom-right-radius: 15px;
+    /* Arredonda o canto inferior direito */
+}
+
+.call-to-action-faq:hover {
+    /*Muda o botão de cor*/
+    background-color: rgba(22, 15, 6, 0.784);
+
+
+}
+
+
+
+
+
+/*Fim FAQ*/
+
+
+
+/*Inicio rodapé*/
+.rodape{
+    background-image: url(images/imagem-consultorio-instagram.jpg);
+    background-size: cover; /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+.cor-fundo-rodape{
+    top: 0;
+    /* Alinha a sobreposição ao topo da seção */
+    left: 0;
+    /* Alinha a sobreposição à esquerda da seção */
+    width: 100%;
+    /* Define a largura da sobreposição como 100% da largura da seção */
+    height: 100%;
+    /* Define a altura da sobreposição como 100% da altura da seção */
+    background-color: rgba(0, 0, 0, 0.764);
+    /* Cor branca semi-transparente */
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+.container-informacoes-footer{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+
+.textos-e-icones{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.textos-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-branco-marcela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;     
+    margin-bottom: 0;
+}
+
+.textos-footer img{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;     
+}
+
+.textos-footer h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.textos-e-icones{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;      
+}
+
+.icones-texto-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-icone2-what{
+   
+    width: 40px;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+
+.img-icone2-what:hover{
+    transform: scale(1.5);
+
+}
+
+.img-icone1-instagram{
+    width: 30px;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.img-icone1-instagram:hover{
+    transform: scale(1.5);
+
+}
+
+.icones-texto-footer a{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.links-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.nav-footer h1{
+    color: #ffffff;
+    margin-bottom: 13px;
+    font-size: 25px;
+    font-weight: 480;    
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.nav-list-footer{
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-list-footer a{
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+.nav-list-footer li{
+    margin-top: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 400;
+}
+
+.nav-list-footer a:hover {
+    color: #b5b4b4;
+
+}
+
+
+
+
+.informacoes-footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+}
+
+.informacoes-footer a{
+    text-decoration: none;
+
+}
+
+.ancora-numero-footer p:hover {
+    color: #b5b4b4;
+
+}
+
+
+.linha-superior-informacoes{
+    border-top: 1px solid #ffffff;
+    width: 100%px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.linha-superior-informacoes h2{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.linha-superior-informacoes p{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+
+.informacoes-footer h1{
+    color: #ffffff;
+    margin-bottom: 13px;
+    font-size: 25px;
+    font-weight: 480;    
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+
+.ultima-linha-superior{
+    width: 78%;
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ffffff;
+    margin-left: 11% ;
+    margin-top: 2%;    
+}
+
+.ultima-linha-superior p{
+    font-weight: 400;
+    padding-top: 8px;
+
+}
+
+.ultima-linha-superior a{
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.ultima-linha-superior a:hover {
+    color: #b5b4b4;
+
+}
+
+/*end of footer*/
+
+

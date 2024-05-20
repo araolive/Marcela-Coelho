@@ -1,0 +1,662 @@
+@media screen and (max-width: 1097px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+/*Responsividade*/
+
+@media (max-width: 1500px) {
+    .container-about h1{
+        font-size: 50px;
+    }
+    .container-about h3 {
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 1276px) {
+    .nav-list a{
+        font-size: 14px;
+    }
+    .call-to-header{
+        font-size: 13px;
+    }
+
+    .nav-list img{
+        width: 15%;
+    }
+
+    .container-about h3 {
+        font-size: 15px;
+    }
+
+    .container-about h1{
+        font-size: 38px;
+    }
+
+    .container-about p{
+        font-size: 11px;
+    }
+
+    .query-texto h1{
+        font-size: 40px;
+    }
+
+    .query-texto p{
+        font-size: 14px;
+    }
+
+    .call-to-action-query{
+        font-size: 15px;
+    }
+
+    .quadrados-com-textos p{
+        font-size: 15px;
+    }
+
+    .depoimentos-gerados-clientes p{
+        font-size: 12px;
+    }
+
+    .depoimentos-gerados-clientes div{
+        height: 300px;
+        width: 520px;
+    }
+
+    .texto-c-p-o h1{
+        font-size: 25px;
+    }
+
+    .texto-c-p-o p{
+        font-size: 15px;
+    }
+    .call-to-action-sobre{
+        font-size: 15px;
+    }
+
+    .texto-faq p{
+        font-size: 12px;
+    }
+    .call-to-action-faq{
+        font-size: 13px;
+    }
+
+    .texto-faq h1{
+        font-size: 45px;
+    }
+
+    .elementos-do-sumary h1{
+        font-size: 13px;
+    }  
+}
+
+
+
+@media (max-width: 1180px) {
+    .nav-list a{
+        font-size: 12px;
+    }
+    .call-to-header{
+        font-size: 10px;
+    }
+
+    .container-main h1{
+        font-size: 20px;
+    }
+
+    .container-main p{
+        font-size: 50px;
+    }
+    .tonalidade-about{
+        flex-direction: column;
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .about img{
+        border-radius: 0;
+        margin-bottom: 0;
+        width: 45%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .container-about{
+        margin-left: 0;
+    }
+    
+    .about{
+        justify-content: center;
+        padding-bottom: 0;
+        align-items: center;
+
+    }
+
+
+    .primeiro-elemento {
+        height: 380px;
+        width: 250px;
+        margin-left: 0;
+    }
+
+    .texto-primeiro-elemento{
+        height: 380px;
+        width: 250px;
+    }
+
+    .texto-primeiro-elemento p{
+        font-size: 11px;
+    }
+
+    .elemento1 {
+        height: 380px;
+        width: 250px;
+      
+    }
+
+    .texto-elemento1{
+        height: 380px;
+        width: 230px;
+    }
+
+    .texto-elemento1 p{
+        font-size: 11px;
+    }
+
+    .tonalidade-query{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    }
+
+    .query-texto {
+        margin-right: 0;
+    }
+
+
+    .query-texto{
+        margin-bottom: 50px;
+    }
+
+    .depoimentos-gerados-clientes{
+        flex-direction: column;
+        padding-bottom: 65px;
+    }
+    .depoimentos-gerados-clientes div{
+        margin-bottom: 40px;
+    }
+
+    .container-f-c-p-o{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        
+    }
+
+    .texto-c-p-o{
+        margin-top: 15px;
+        width: 50%;
+        margin-left: 0;
+        margin-right: 0;
+        order: 1;
+    }
+
+    .imagem-c-p-o{
+        margin-top: 40px;
+        margin-left: 0;
+        order: 2;
+    }
+
+    .elementos-do-sumary{
+        width: 500px;
+        margin-top: 30px;
+        padding-bottom: 0px;
+
+    }
+
+    .faq{
+        flex-direction: column;
+    }
+     
+    .texto-faq{
+        padding-top: 70px;
+        margin-left: 0;
+        
+    }
+
+    .faq details p {
+        font-size: 15px;
+    }
+
+
+}
+
+
+@media (max-width: 880px) {
+    .container-main{
+        margin-right: 0;
+        
+    }
+
+    .container-main p{
+        font-size: 25px;
+    }
+
+    .container-main h1{
+        font-size: 10px;
+    }
+
+    .container-main h3{
+        font-size: 10px;
+    }
+    .call-to-action{
+        font-size: 14px;
+    }
+
+    .container-about{
+        max-width: 80%;
+        /*Nunca vai ser maior que 50%*/
+        margin-left: 0;   
+    }
+
+    .container-about h3{
+        font-size: 9px;
+    }
+
+    .container-about h1{
+        font-size: 30px;
+    }
+
+    .container-about p{
+        font-size: 9px;
+    }
+
+    .call-to-action-sobre{
+        font-size: 10px;
+    }
+    .about img {
+        width: 80%;
+        /*Diminuindo a imagem*/
+        border-radius: 0;
+        /*Arredondando a borda da imagem*/
+    }
+    
+    .container2{
+        flex-direction: column;
+    }
+
+    .elemento1{
+        margin-left: 0;
+    }
+    .query-texto {
+     width: 80%;
+    } 
+
+    .query-texto p{
+        font-size: 11px;
+    }
+    .query-texto h1{
+        font-size: 35px;
+    }
+
+    .tema-timeline-etapas-consulta h1{
+        font-size: 20px;
+    }
+
+    .tema-timeline-etapas-consulta h2{
+        font-size: 15px;
+    }
+
+    .ag-timeline-card_img-box h2{
+        font-size: 15px;
+    }
+    .ag-timeline-card_img-box p{
+        font-size: 10px;
+    }
+
+    .tema-depoimentos h1{
+        font-size: 20px;
+    }
+
+    .depoimentos-gerados-clientes div{
+        width: 350px;
+        height: 440px;
+    }
+
+    .texto-c-p-o h2{
+        font-size: 13px;
+    }
+
+    .tonalidade-redes-sociais-t h1{
+        font-size: 23px;
+    }
+
+    .elementos-do-sumary{
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .container-informacoes-footer{
+        flex-direction: column;
+    }
+
+    .links-footer{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .informacoes-footer{
+        margin-bottom: 10px;
+    }
+
+    .ultima-linha-superior p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    /*Inicio main*/
+    .container-main h1{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .container-main h3{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .container-main p{
+        font-size: 34px;
+    }
+
+    .call-to-action{
+        font-size: 17px;
+    }
+
+
+
+    /*Fim main*/
+
+
+    /*inicio sobre*/
+
+    .about{
+        
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: left;
+    }
+    .container-about{
+        max-width: 300px;
+        margin-left: 0;
+    }
+
+    .container-about h1{
+        font-size: 33px;
+    }
+    
+    .container-about h3{
+        font-size: 12px;
+    }
+   
+    .container-about{
+        justify-content: flex-start;
+    }
+   
+    .container-about p{
+        font-size: 16px;
+    }
+
+    .call-to-action-sobre{
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 17px;
+    }
+
+    .about img{
+        width: 105%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /*Fim sobre*/
+
+    /*Inicio especialidades*/
+    
+   
+    .tema h2{
+        font-size: 14px;
+    }
+
+    .tema h1{
+        font-size: 35px;
+    }
+
+    .texto-primeiro-elemento{
+        height: 400px;
+        width: 200px;
+    }
+
+    .texto-primeiro-elemento p{
+        font-size: 17px;
+    }
+
+    .texto-elemento1 p{
+        font-size: 17px;
+    }
+
+    .primeiro-elemento{
+        width: 340px;
+        height: 500px;
+    }
+    .texto-primeiro-elemento{
+        width: 340px;
+        height: 500px;
+    }
+
+    .elemento1{
+        width: 340px;
+        height: 500px;
+    }
+
+    .texto-elemento1{
+        width: 340px;
+        height: 500px;
+    }
+    
+    /*Fim especialidades*/
+
+    /* inicio Como posso ajudar voce*/
+
+    .query-texto h1{
+        font-size: 31px;
+    }
+
+    .query-texto h2{
+        font-size: 20px;
+    }
+
+    .query-texto p{
+        font-size: 17px;
+    }
+
+    .textos-quadrados p{
+        font-size: 13px;
+    }
+
+    .textos-quadrados{
+        width: 90%;
+    }
+
+    .call-to-action-query{
+        font-size: 17px;
+    }
+
+
+    /*Fim como posso ajudar vc*/
+
+
+    /*Inicio etapas da consulta*/
+    .tema-timeline-etapas-consulta h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .Main-section h2{
+        font-size: 18px;
+    }
+
+    .timeline-etapas-consultas p{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    /*Fim etapas da consulta*/
+
+
+    /*Inicio depoimentos*/
+    .depoimentos-gerados-clientes p{
+        font-size: 16px;
+    }
+
+    .depoimentos-gerados-clientes div{
+        height: 600px;
+    }
+
+    .tema-depoimentos h2{
+        font-size: 25px;
+    }
+    /*Fim depoimentos*/
+
+
+    /*Inicio tele-consulta*/
+
+    .texto-c-p-o{
+        width: 70%;
+    }
+
+    .texto-c-p-o h2{
+        font-size: 15px;
+    }
+
+    .texto-c-p-o h1{
+        font-size: 32px;
+    }
+
+    .texto-c-p-o p{
+        font-size: 17px;
+    }
+
+    .call-to-action-query{
+        font-size: 17px;
+    }
+
+
+    /*Fim tele-consulta*/
+
+    /*Inicio redes sociais*/
+    .tonalidade-redes-sociais-t h1{
+        font-size: 20px;
+    }
+
+    .tonalidade-redes-sociais-t h2{
+        font-size: 25px;
+    }
+    
+
+    /*Fim redes sociais*/
+
+    /*Inicio perguntas frequentes*/
+    .texto-faq{
+        width: 70%;
+        align-items: center;
+    }
+
+    .texto-faq br{
+        display: none;
+    }
+
+    .texto-faq p{
+        font-size: 17px;
+    }
+
+    .elementos-do-sumary h1{
+        margin-left: 0;
+        font-size: 17px;
+    }
+ 
+    .elementos-do-sumary p{
+        font: 17px;
+    }
+
+    .call-to-action-faq{
+        font-size: 17px;
+    }
+
+    /*Fim perguntas frequentes*/
+
+    .ultima-linha-superior p{
+        font-size: 11px;
+    }
+
+    .timeline-etapas-consultas{
+        overflow: hidden;
+    }
+
+    .textos-footer img{
+        width: 70%;
+    }
+
+
+    
+
+
+}
+
+
+
+
+/*Fim responsividade*/

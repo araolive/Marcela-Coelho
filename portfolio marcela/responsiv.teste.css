@@ -1,0 +1,123 @@
+
+@media (max-width: 1050px) {
+
+    /*Colocar o valor do tamanho da tela que vai fazer a responsividade*/
+    /*Inicio main*/
+    .main h1 {
+        font-size: 45px;
+        /*Diminuindo o tamanho da fonte do h1*/
+    }
+
+    .main p {
+        font-size: 18px;
+        /*Diminuindo o tamanho da fonte do P*/
+    }
+
+    .main {
+        background-size: cover;
+        /*Tenta encaixar a imagem de fundo inteira do main*/
+    }
+
+    /*Fim main*/
+
+
+    /*Inicio sobre*/
+    .about {
+        flex-direction: column;
+        /*Coloca os itens em coluna do about*/
+        padding-top: 80px;
+        /*Espaçamento em cima de 80 px*/
+        padding-left: 0;
+        /*Para remover espaçamento na esquerda pq foi colocado no sobre la em cima */
+        padding-right: 0;
+        /*Remover espaçamento na direita pq foi colocado no sobre la em cima*/
+        padding-bottom: 0;
+        /*Remover espaçamento em baixo*/
+    }
+
+    .about div {
+        max-width: 80%;
+
+    }
+
+    .about div h2 {
+        font-size: 45px;
+        /*Aumentando o tamanho da fonte*/
+
+    }
+
+    .about img {
+        width: 80%;
+        /*Aumtando o tamanho da imagem*/
+        margin-top: 30px;
+        /*Margem em cima 30px*/
+
+    }
+
+    /*Fim sobre*/
+
+    /*Inicio projeto*/
+    .projects img {
+        width: 27.5%;
+        /*Aumentando o tamanho da imagem*/
+
+    }
+
+    /*Fim projeto*/
+}
+
+/*Inicio rodapé*/
+footer {
+    flex-direction: column;
+    /*Colocando os itens em coluna*/
+}
+
+footer p {
+    margin: 0;
+    /*Removendo margem do P*/
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+/*Fim rodapé*/
+
+
+@media screen and (max-width: 600px){
+    .timeline-ec{
+        margin: 50px auto;
+    }
+    .timeline-ec::after{
+        left: 31px;
+    }
+
+    .container-timeline-ec{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+
+    .text-box-ec{
+        font-size: 13px;
+
+    }
+    .text-box-ec small{
+        margin-bottom: 10px;
+
+    }
+    .right-container-timeline-sc{
+        left: 0;
+    }
+
+    .left-container-timeline-sc  img, .right-container-timeline-sc img{
+        left:10px;
+    }
+    .left-container-rrow, .right-container-rrow{
+        border-right: 15px solid #fff ;
+        border-left: 0;
+        left: -14px;
+
+    }
+}
